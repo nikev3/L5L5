@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lynn Schirmer for CFA 2023">
+    <title>Functions Do Something</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div>
+            <p>Your friends are arriving in an hour...</p>
+            <h1>Do Something!</h1>
+            <ul id="task-list"></ul>
+        </div>
+        <button id="magic">Use Magic Wand</button>
+    </main>
+    <script>
+          /* Exercise 1: Parameters and arguments
+        1. Select the #task-list ul tag and assign it a variable
+        2. Create a function called cleanYourRoom with one parameter: activity
+        3. Inside the function, cumulatively add activities to the innerHTML of the ul tag,
+        use a template literal so you can mark-up the activity with <li> tags.
+        4. Call the function and pass it a string as an argument */
+
+        /*Exercise 2: Positional arguments
+        1. Add another parameter to the function, time.
+        2. To the current value of innerHTML, add:
+        in ${time} minutes.
+        3. What do you see on the page? It should say "undefined".
+        4. Add a number for time in the function call. */
+
+
+
+
+
+
+          /* Exercise 3: Function expressions
+        1. Rewrite the above function as the value of a variable, just add 2 to the end of the name.
+        2. Call the function and pass it the required arguments.  */
+
+
+
+
+
+
+      /* Exercise 4: Arrow function syntax
+        1. Rewrite the above function value using arrow => syntax, just add 3 to the end of the name.
+        2. Call the function and pass it the required arguments.  */ 
+
+
+
+
+
+
+          /* Exercise 5: Separation of concerns, return statements
+        1. Write a function to sort clothes, give it 2 parameters: clean, dirty.
+        2. Inside the function, add the clean plus dirty clothes
+        3. Return the total amount of clothes
+        4. Create a variable called totalClothes, give it a value of the function call sortClothes(10, 2)
+        5. Call one of the cleanYourRoom functions and pass it totalClothes and a number for time.    */
+
+
+
+
+
+
+    
+        /* Exercise 6: The 'this' keyword, practice click event and DOM element properties
+        1. Create a function called magicWand, no parameters.
+        2. Inside the function write: console.log(this) 
+        3. Outside the function, get the btn with querySelector and add a click event listener to it to call the function.
+        4. Open your console and click on the button, what do you see?
+        5. Inside the function, use the this keyword to remove() the button
+        6. Use the style attribute to change the body background image.
+        7. Select the div tag and change its innerHTML to an h1 with text: "Welcome to my home!". */ 
+
+
+
+
+
+
+
+       /* Exercise 7: Hoisting
+        1. take any of the function calls and move it to the top of your JS code, right under the line where you defined a variable for #task-list.  
+        Does the function still run?
+        */
+
+         /* Exercise 8 - extra credit: Separation of concerns, return statements
+       1. Write a function to calculate pairs of socks found, call it pairsOfSocks and give it 1 parameter: socks
+       2. Inside the function create 2 variables: pairs, singles.
+       3. Use the modulo % to set the value of pairs. The modulo returns the remainder of a division operation, so we can check to see if we found an odd or even number of socks by running: socks % 2 === 0. 
+       4. Inside the else, calculate the number of single socks.
+       5. Call the function and assign it variable.
+       6. Call any of the cleanYourRoom() functions and pass it the output of pairsOfSocks. 
+         */
+
+
+
+
+    </script>
+</body>
+
+</html>
